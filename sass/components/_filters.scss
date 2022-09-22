@@ -1,0 +1,26 @@
+.button .secondary {
+  min-width: 73px;
+  padding: 6px 22px;
+
+  color: $title-text-color;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  &:first-child {
+    padding: 6px 25px;
+  }
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  &_item:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
